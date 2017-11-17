@@ -35,14 +35,13 @@ nav ul{
 
 .container {
   border: solid green;
-  margin: 0;
   width: 100%;
-
 }
-#columns {
-
-
-}
+/*#columns {
+  min-height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
 
 #left-col ul{
   list-style: none;
@@ -63,7 +62,6 @@ nav ul{
 #addtl {
   width:50px;
   list-style: none;
-  border: 1px solid blue;
 
 }
 .thumbnail img{
@@ -83,26 +81,22 @@ nav ul{
 }
 
 #right-col {
-
   box-sizing: border-box;
-  border: solid pink;
-  padding: 10px;
   float:left;
-
-
 }
 
 .center {
-  box-sizing: border-box;
+  width: 800px;
 
-  /*width:340px;*/
-  height: 875px;
-  border: solid blue;
+  padding: 0px 150px 0px 150px;
+  border: solid pink;
+  box-sizing: border-box;
+  height: 902px;
   display: table-cell;
   vertical-align: middle;
 }
 
-#right-col a{
+.block a{
   display: block;
   margin-bottom: 10px;
 }
@@ -111,7 +105,6 @@ nav ul{
   border: solid grey;
   clear:both;
   text-align: center;
-
 }
 
 
@@ -121,7 +114,8 @@ nav ul{
 
    border: 1px solid #000;
    border-collapse: collapse;
-   width: 100%;
+   width: 400px;
+
  }
 
  thead{
