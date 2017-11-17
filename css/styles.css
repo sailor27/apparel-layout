@@ -2,14 +2,23 @@
 body{
 }
 
+h1{
+  display: inline;
+  float: left;
+}
+
 #nav li{
-  float: right;
   list-style: none;
+  display: inline-block;
+  float: right;
+}
+
+nav ul{
+
 }
 
 #nav li:after{
   content:"++++";
-  width: 5px;
 }
 
 #nav {
@@ -20,7 +29,8 @@ body{
   background-color: grey;
   color:white;
   margin: 0px;
-  padding: 25px;
+  padding: 30px 100px 10px 100px;
+
 }
 
 .container {
@@ -31,6 +41,10 @@ body{
 }
 #left-col ul{
   list-style: none;
+}
+#left-col p {
+  padding-right: 60px;
+  text-align: center;
 }
 
 #left-col {
@@ -51,7 +65,6 @@ body{
 }
 .thumbnail img{
   width: 150px;
-
   padding: 2px;
 }
 
@@ -79,6 +92,8 @@ body{
 #footer{
   border: solid grey;
   clear:both;
+  text-align: center;
+
 }
 
 
