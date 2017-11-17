@@ -2,21 +2,29 @@
 body{
 }
 
-#header li{
+#nav li{
   float: right;
-  display: inline-block;
+  list-style: none;
 }
 
-#header {
-  border: solid green;
-  background-color: black;
+#nav li:after{
+  content:"   ";
+  width: 5px;
+}
+
+#nav {
+  box-sizing: border-box;
+  width: 100%;
+  border: solid orange;
+  overflow: auto;
+  background-color: grey;
   color:white;
-  margin-top:0px;
+  margin: 0px;
+  padding: 25px;
 }
 
 .container {
   border: solid green;
-  background-color: #fff;
   margin: 0;
   width: 100%;
 
@@ -34,6 +42,16 @@ body{
   float:left;
   width: 40%;
 }
+
+.center {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width:340px;
+  /*border: dashed grey;*/
+}
+
+
 #footer{
   border: solid grey;
   clear:both;
