@@ -78,6 +78,18 @@ nav ul{
 #main-img{
   float: right;
   position: relative;
+
+  width: 591px;
+  height: 780px;
+  background-image: url(../img/brownshirtl.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#main-img:hover{
+  background-size: 200% 200%;
 }
 
 #right-col {
@@ -86,9 +98,8 @@ nav ul{
 }
 
 .center {
-  width: 800px;
-
-  padding: 0px 150px 0px 150px;
+  width: 700px;
+  padding: 0px 120px 0px 120px;
   border: solid pink;
   box-sizing: border-box;
   height: 902px;
