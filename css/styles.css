@@ -68,10 +68,18 @@ nav ul{
   padding: 2px;
 }
 
+#caption{
+  position: absolute;
+  left: 650px;
+  top: 275px;
+}
+
 #main-img{
   display: inline;
   float: right;
+  position: relative;
 }
+
 #right-col {
   box-sizing: border-box;
   border: solid pink;
