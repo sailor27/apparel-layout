@@ -8,7 +8,7 @@ body{
 }
 
 #nav li:after{
-  content:"   ";
+  content:"++++";
   width: 5px;
 }
 
@@ -29,25 +29,31 @@ body{
   width: 100%;
 
 }
+#left-col ul{
+}
+
 #left-col {
   box-sizing: border-box;
   border: solid purple;
   float: left;
   width: 60%;
-  padding-left:30px;
+  /*display: inline;*/
 }
+
 #addtl {
-  width:220px
-  /*border: solid blue;*/
+  display: inline;
+  width:50px;
+  list-style: none;
 }
-#addtl img {
-  width: 15%;
-  float: left;
-  display: block;
+#addtl img{
+
+  width: 100px;
+  float: right;
+  padding: 2px;
 }
 
 #main-img{
-  /*display: block;*/
+  display: inline;
   float: left;
 }
 #right-col {
@@ -75,6 +81,7 @@ body{
 
 /*Table Styling*/
  table {
+
    border: 1px solid #000;
    border-collapse: collapse;
    width: 100%;
