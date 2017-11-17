@@ -51,8 +51,31 @@ body{
   /*border: dashed grey;*/
 }
 
-
 #footer{
   border: solid grey;
   clear:both;
 }
+ table {
+   border: 1px solid #000;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ thead{
+   border-bottom: 1px solid #000;
+   background-color: lightblue;
+ }
+
+ th:first-child {
+
+ }
+
+ td, th {
+   padding: 3px;
+   text-align: center;
+   border-left: 1px solid #000;
+ }
+
+ td:first-child {
+   text-align: left;
+ }
