@@ -34,6 +34,21 @@ body{
   border: solid purple;
   float: left;
   width: 60%;
+  padding-left:30px;
+}
+#addtl {
+  width:220px
+  /*border: solid blue;*/
+}
+#addtl img {
+  width: 15%;
+  float: left;
+  display: block;
+}
+
+#main-img{
+  /*display: block;*/
+  float: left;
 }
 #right-col {
   box-sizing: border-box;
@@ -55,6 +70,10 @@ body{
   border: solid grey;
   clear:both;
 }
+
+
+
+/*Table Styling*/
  table {
    border: 1px solid #000;
    border-collapse: collapse;
@@ -67,7 +86,7 @@ body{
  }
 
  th:first-child {
-
+   background-color: #fff;
  }
 
  td, th {
