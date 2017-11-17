@@ -1,7 +1,10 @@
 
 body{
-  box-sizing: border-box;
+}
 
+#header li{
+  float: right;
+  display: inline-block;
 }
 
 #header {
@@ -14,15 +17,24 @@ body{
 .container {
   border: solid green;
   background-color: #fff;
-  margin: 100px 0px 0px 0px;
+  margin: 0;
   width: 100%;
+
 }
 #left-col {
+  box-sizing: border-box;
   border: solid purple;
+  float: left;
+  width: 60%;
 }
 #right-col {
+  box-sizing: border-box;
   border: solid pink;
+  padding: 10px;
+  float:left;
+  width: 40%;
 }
 #footer{
   border: solid grey;
+  clear:both;
 }
