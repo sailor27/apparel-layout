@@ -46,7 +46,7 @@ CSS
      <tr>
        <td>display:inline;</td>
        <td>HTML elements have default display properties that place them either on the same line or a new line as other elements. Display:inline makes an element sit on the same line as other elements instead of being block-level</td>
-       <td>I used display:inline ... I didn't use it yet!</td>
+       <td>I used display:inline to make the unordered list of site links in the left column display in a line.</td>
      </tr>
      <tr>
        <td>Centered Content</td>
@@ -64,7 +64,19 @@ CSS
        <td>I applied a hover psuedo-class to the div containting the main image on my product page, and set it to display the image at 200% mouse cursor hovers over the image.</td>
      </tr>
      <tr>
-       
+       <td>Clear-fix</td>
+       <td>Clear fixes allow you to clear the effects of nearby floated elements from an element. </td>
+       <td>I used a clear:both to allow the footer to not float left with the two columns abovr it on the page.</td>
+     </tr>
+     <tr>
+       <td>Positional Selector</td>
+       <td>Positional selectors allow you to specify an indivual element to select based on the order it appears in relation to it's parent.</td>
+       <td>I used the ":first-child" selector to target the first row in the size chart table with my CSS</td>
+     </tr>
+     <tr>
+       <td>Selector Combinator</td>
+       <td>Descendant selectors are selector combinators that let you specify descendents of an element. You can also select children (<), adjacent siblings (+), and general siblings (~). </td>
+       <td>I use the space combinator in my CSS to target elements inside of divs with ids and classes. </td>
      </tr>
    </tbody>
  </table>

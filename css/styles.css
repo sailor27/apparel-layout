@@ -1,4 +1,5 @@
 
+
 body{
 }
 
@@ -9,7 +10,6 @@ h1{
 
 #nav li{
   list-style: none;
-  display: inline-block;
   float: right;
 }
 
@@ -17,8 +17,8 @@ nav ul{
 
 }
 
-#nav li:after{
-  content:"++++";
+#nav li:before{
+  content:"/";
 }
 
 #nav {
@@ -37,11 +37,11 @@ nav ul{
   border: solid green;
   width: 100%;
 }
-/*#columns {
+#columns {
   min-height: 900px;
   margin-left: auto;
   margin-right: auto;
-}*/
+}
 
 #left-col ul{
   list-style: none;
@@ -59,8 +59,11 @@ nav ul{
   position: relative;
 }
 
-#addtl {
-  width:50px;
+#left-col li{
+  display: inline;
+}
+
+.thumbnail {
   list-style: none;
 
 }
