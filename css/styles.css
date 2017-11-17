@@ -39,6 +39,11 @@ nav ul{
   width: 100%;
 
 }
+#columns {
+
+
+}
+
 #left-col ul{
   list-style: none;
 }
@@ -52,12 +57,10 @@ nav ul{
   border: solid purple;
   float: left;
   width: 800px;
-  /*display: inline;*/
+  position: relative;
 }
 
 #addtl {
-  clear:both;
-  display: inline;
   width:50px;
   list-style: none;
   border: 1px solid blue;
@@ -71,30 +74,37 @@ nav ul{
 #caption{
   position: absolute;
   left: 650px;
-  top: 275px;
+  top: 100px;
 }
 
 #main-img{
-  display: inline;
   float: right;
   position: relative;
 }
 
 #right-col {
+
   box-sizing: border-box;
   border: solid pink;
   padding: 10px;
   float:left;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+
+
 }
 
 .center {
   box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  width:340px;
+
+  /*width:340px;*/
+  height: 875px;
+  border: solid blue;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#right-col a{
+  display: block;
+  margin-bottom: 10px;
 }
 
 #footer{
