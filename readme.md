@@ -1,24 +1,24 @@
-#Apparel Online Store
-###Code Review Week 1 CSS 11/17/17
+# Apparel Online Store
+### Code Review Week 1 CSS 11/17/17
 
-##By Sailor Winkelman
+## By Sailor Winkelman
 
-##Description
+## Description
 
 This webpage displays a clothing item for sale in an online store. It includes a summary of the item's features, a large image of the item, thumbnail images of different views of the item, a table to help the user determine their size, and a caption.
 
-##Setup
+## Setup
 
 Clone this repository.
 
 Open the index.html in a web browser.
 
-##Technologies Used:
+## Technologies Used:
 
 HTML
 CSS
 
-##Elements Used:
+## Elements Used:
  <table>
    <thead>
      <tr>
@@ -80,5 +80,5 @@ CSS
      </tr>
    </tbody>
  </table>
-##Legal
+## Legal
 Copyright (c) 2017 Sailor Winkelman
