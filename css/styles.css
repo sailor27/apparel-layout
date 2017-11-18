@@ -83,7 +83,7 @@ p {
 }
 
 #left-col {
-  /*border: solid purple;*/
+
   box-sizing: border-box;
   float: left;
   width: 800px;

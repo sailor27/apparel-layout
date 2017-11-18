@@ -41,7 +41,7 @@ CSS
      <tr>
        <td>display:block;</td>
        <td>HTML elements have default display properties that place them either on the same line or a new line as other elements. Display:block makes an element occupy it's own line like a block level element.</td>
-       <td>I used display:block on <a> elements to make them block-level instead of on the same line</td>
+       <td>I used display:block on <a> elements to make them block-level instead of on the same line. These are the links in the right column.</td>
      </tr>
      <tr>
        <td>display:inline;</td>
