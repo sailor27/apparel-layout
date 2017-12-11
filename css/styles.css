@@ -1,7 +1,10 @@
 
-
+html{
+  box-sizing: border-box;
+}
 body{
   background-color: pink;
+  margin: 0;
 }
 
 h1{
@@ -70,8 +73,7 @@ p {
 }
 
 .container {
-  box-sizing: border-box;
-
+  height: calc(100vh - 300px);
 }
 
 #left-col ul{
